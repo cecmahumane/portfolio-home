@@ -2,17 +2,17 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-        <div>
-            <p>Signature Logo</p>
+    <div className='header'>
+        <div className='logo'>
+            <img src='/images/portfolio-signature.png' alt='Cecils signature'/>
         </div>
-        <div>
-            <ul>
+        <div className='menu-options'>
+            <ul className='menu-options-links'>
                 <li>About Me</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
             </ul>
-            <div>
+            <div className='menu-options-cv'>
                 <p>Download CV</p>
             </div>
         </div>
