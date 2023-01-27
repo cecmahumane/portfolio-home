@@ -66,3 +66,28 @@ body {
   font-size: 20px;
   color: #FFFFFF;
 }
+
+/* Hero Section */
+.photo-hero-text {
+  display: flex;
+  margin-left: 60px;
+}
+
+.photo {
+  border: #F04505 solid 9px; 
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.photo:before {
+  content: " ";
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 9px solid white;
+  border-radius: 50%;
+}
