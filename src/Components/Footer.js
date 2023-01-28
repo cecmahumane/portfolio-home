@@ -4,14 +4,22 @@ const Footer = () => {
     return (
         <div className='footer-box'>
             <div className='name-rights'>
-               <p className='name'>Cecil Mahumane</p> 
-               <p className='rights'>All Rights Reserved 2023</p>
+                <p className='name'>Cecil Mahumane</p>
+                <p className='rights'>All Rights Reserved 2023</p>
             </div>
             <div className='socials'>
-                <img src='/images/GithubLogo.png' alt='Github logo'/>
-                <img src='/images/PhoneNumber.png' alt='Phone symbol'/>
-                <img src='/images/Envelope.png' alt='Envelope'/>
-                <img src='/images/LinkedinLogo.png' alt='Linkedin logo'/>
+                <a href='https://www.github.com/cecmahumane' target="_blank" rel="noopener noreferrer">
+                    <img src='/images/GithubLogo.png' alt='Github logo' />
+                </a>
+                <a target="_blank" rel="noopener noreferrer">
+                    <img src='/images/PhoneNumber.png' alt='Phone symbol' />
+                </a>
+                <a href='https://www.linkedin.com/in/cecil-mahumane-b756433a/' target="_blank" rel="noopener noreferrer">
+                    <img src='/images/Envelope.png' alt='Envelope' />
+                </a>
+                <a href='https://www.linkedin.com/in/cecil-mahumane-b756433a/' target="_blank" rel="noopener noreferrer">
+                    <img src='/images/LinkedinLogo.png' alt='Linkedin logo' />
+                </a>
             </div>
         </div>
     )

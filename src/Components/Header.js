@@ -10,11 +10,11 @@ const Header = () => {
             <ul className='menu-options-links'>
                 <li>About Me</li>
                 <li>Portfolio</li>
-                <li>Contact</li>
+                {/* <li>Contact</li> */}
             </ul>
-            <div className='menu-options-cv'>
+            <a href='/CecilDeveloperResume.pdf' target="_blank" rel="noopener noreferrer"><div className='menu-options-cv'>
                 <p>Download CV</p>
-            </div>
+            </div></a>
         </div>
     </div>
   )

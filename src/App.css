@@ -4,6 +4,10 @@ body {
   flex-direction: column; /* ...this line */
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 .header {
   display: flex;
@@ -20,7 +24,8 @@ body {
   justify-content: space-between;
   gap: 60px;
   margin-right: 40px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  align-items: center;
 }
 
 .menu-options-links {
@@ -28,6 +33,7 @@ body {
   justify-content: space-between;
   gap: 60px;
   list-style: none;
+  font-size: 25px;
 }
 
 .menu-options-cv p {
@@ -36,6 +42,8 @@ body {
   padding: 15px 15px;
   color: white;
   border-radius: 5px;
+  font-size: 25px;
+
 }
 
 /* Footer */
@@ -70,10 +78,11 @@ body {
 /* Hero Section */
 .photo-hero-text {
   display: flex;
-  margin-left: 60px;
+  margin-left: 300px;
   margin-top: 108px;
   margin-bottom: 167px;
   align-items: center;
+  
 }
 
 .photo {
@@ -81,6 +90,9 @@ body {
   overflow: hidden;
   border-radius: 50%;
   position: relative;
+  /* height: 519px;
+  width: 517.26px; */
+  
 }
 
 .photo:before {
@@ -119,6 +131,8 @@ body {
   color: #FFFFFF;
   padding: 15px 15px;
   border-radius: 5px;
+  font-size: 25px;
+
 }
 
 /* Bio */
@@ -126,3 +140,81 @@ body {
   margin-top: 72px;
   font-size: 50px;
 }
+
+/* Projects */
+.project-tiles {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-title {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title-highlight {
+  color: #F04505;
+}
+
+.image-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* gap: 60px; */
+}
+
+.image-box img {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  /* overflow: hidden; */
+}
+
+.reddit, .quizzical, .todo, .ecommerce {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../public/images/reddit-clone-screenshot.png'); */
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+} 
+
+.reddit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/reddit-clone-screenshot.png');
+}
+
+.quizzical {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png');
+}
+
+.todo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/todo-screenshot.png');
+}
+
+.ecommerce {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('');
+  
+}
+
+.projects div a {
+  color: white;
+  font-size: 30px;
+  /* text-align: center; */
+  position: relative;
+  bottom: -300px; 
+  left: 30%;
+  text-decoration: none;
+}
+/* 
+.projects div a:link {
+
+} */
+
+.projects div a:hover {
+  color: #F04505;
+}
+

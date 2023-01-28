@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div className='photo-hero-text'>
       <div className='photo'>
-        <img src='/images/headshot.jpg' alt='Smiling male'/>
+        <img src='/images/headshot.jpg'  alt='Smiling male'/>
       </div>
       <div className='hero-text-button'>
         <h2 className='line1'>I'm Cecil </h2>
@@ -13,7 +13,7 @@ const HeroSection = () => {
           {/* as a self-taught developer in his 30s, what <br/>  */}
           {/* I bring to the table is pretty funny.</p> */}
         <div className='portfolio-button'>
-          <p>Just look at my portfolio</p>
+          <p>Look at my portfolio</p>
         </div>
       </div>
     </div>
