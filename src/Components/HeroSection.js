@@ -9,9 +9,9 @@ const HeroSection = () => {
       <div className='hero-text-button'>
         <h2 className='line1'>I'm Cecil </h2>
         <h2 className='line2'>Mahumane</h2>
-        {/* <p className='hero-quote'>Not saying I’m special or something. But, <br/>  */}
-          {/* as a self-taught developer in his 30s, what <br/>  */}
-          {/* I bring to the table is pretty funny.</p> */}
+        <p className='hero-quote'> I'm a self-taught Full Stack Web Developer, <br/> 
+          from Canada in his 30s. Feel free to learn  <br/> 
+          about me or just skip to the good part 😋.</p>
         <div className='portfolio-button'>
           <p>Look at my portfolio</p>
         </div>

@@ -14,9 +14,9 @@ const Footer = () => {
                 <a target="_blank" rel="noopener noreferrer">
                     <img src='/images/PhoneNumber.png' alt='Phone symbol' />
                 </a>
-                <a href='https://www.linkedin.com/in/cecil-mahumane-b756433a/' target="_blank" rel="noopener noreferrer">
-                    <img src='/images/Envelope.png' alt='Envelope' />
-                </a>
+
+                <img src='/images/Envelope.png' alt='Envelope' onClick={() => window.location = 'mailto:cecmahumane@gmail.com'} />
+
                 <a href='https://www.linkedin.com/in/cecil-mahumane-b756433a/' target="_blank" rel="noopener noreferrer">
                     <img src='/images/LinkedinLogo.png' alt='Linkedin logo' />
                 </a>
