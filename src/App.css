@@ -232,27 +232,23 @@ span {
 }
 
 .image-box {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   /* gap: 60px; */
 }
 
-.image-box img {
-  object-fit: cover;
-  width: 400px;
-  height: 400px;
-  margin: 50px;
-  /* overflow: hidden; */
+.image-box div {
+ /* text-align: center; */
 }
 
 .reddit, .quizzical, .todo, .ecommerce {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../public/images/reddit-clone-screenshot.png'); */
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   margin: 0px 50px 50px;
 } 
 
@@ -273,13 +269,17 @@ span {
   
 }
 
+.projects div {
+  text-align: center;
+}
+
 .projects div a {
   color: white;
   font-size: 30px;
   /* text-align: center; */
   position: relative;
-  bottom: -300px; 
-  left: 30%;
+  bottom: -400px; 
+  left: 0%;
   text-decoration: none;
 }
 
