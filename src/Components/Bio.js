@@ -1,11 +1,32 @@
 import React from 'react'
 
 const Bio = () => {
-  return (
-    <div>
-      <h2 className='bio-title'>The <span className='subtitle'>Origins Of</span> Old Man Cecil</h2>
-    </div>
-  )
+    return (
+        <div className='bio'>
+            <h2 className='bio-title'>The <span className='subtitle'>Origins</span> of Old Man Cecil</h2>
+            <div className='video-box-container'>
+                <div className='video-box'>
+
+                </div>
+            </div>
+            <div className='columns'>
+                <div className='alignment-box'>
+                    <div className='leftCol'>
+
+                        <p>I like meatlovers pizza and classic movies. Some of my favourites are The Godfather, 
+                            and 11 Angry Men. My favourite book is A Long Way Gone by Ishmael Beah. Dislikes hmm...
+                            pineapple on pizza. </p>
+                        <br />
+                        
+                    </div>
+
+                    <div className='rightCol'>
+                        <p><b>TL;DR:</b> From ballet, to photography to programming, I've done a lot and I think I have a lot to offer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default Bio

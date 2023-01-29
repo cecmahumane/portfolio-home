@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='project-tiles'>
                 <div className='image-box'>
                     <div className='ecommerce'>
-                        <a target="_blank" rel="noopener noreferrer">Ecommerce App <br />Coming Soon</a>
+                        <a target="_blank" rel="noopener noreferrer">E-commerce App <br />Coming Soon</a>
                     </div>
                     <div className='reddit'>
                         <a href='http://reddit-client.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Reddit Clone</a>
