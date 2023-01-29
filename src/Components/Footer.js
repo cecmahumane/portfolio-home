@@ -11,7 +11,7 @@ const Footer = () => {
                 <a href='https://www.github.com/cecmahumane' target="_blank" rel="noopener noreferrer">
                     <img src='/images/GithubLogo.png' alt='Github logo' />
                 </a>
-                <a target="_blank" rel="noopener noreferrer">
+                <a target="_blank" rel="noopener noreferrer" >
                     <img src='/images/PhoneNumber.png' alt='Phone symbol' />
                 </a>
 

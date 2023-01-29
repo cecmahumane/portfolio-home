@@ -2,6 +2,7 @@ body {
   margin: 0px;
   display: flex; /* Test removing this line and ...*/
   flex-direction: column; /* ...this line */
+  
 }
 
 h2 {
@@ -227,6 +228,7 @@ span {
 
 .title-highlight {
   color: #F04505;
+  font-style: italic;
 }
 
 .image-box {

@@ -27,7 +27,7 @@ const Contacts = () => {
         <div className='contact-form-and-title'>
             <div>
                 <h2>Now that you know me, <span> let's talk!</span></h2>
-                <p>Feel free to send me a message.</p>
+                <p>Phone, e-mail, message, take your pick.</p>
             </div>
             <div>
                 <form>

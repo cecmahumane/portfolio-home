@@ -6,20 +6,20 @@ const Projects = () => {
 
     return (
         <div className='projects'>
-            <h2 className='projects-title'>My<span className='title-highlight'>Projects</span></h2>
+            <h2 className='projects-title'>How I <span className='title-highlight'>Progressed</span>As A Developer</h2>
             <div className='project-tiles'>
                 <div className='image-box'>
                     <div className='ecommerce'>
-                        <a target="_blank" rel="noopener noreferrer">E-commerce App <br />Coming Soon</a>
+                        <a target="_blank" rel="noopener noreferrer">An E-Commerce Store You Can Order From Without Spending Any Money.<br />Coming Soon</a>
                     </div>
                     <div className='reddit'>
-                        <a href='http://reddit-client.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Reddit Clone</a>
+                        <a href='http://reddit-client.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Clone Of The Whole Reddit App... Except You Can't Search.</a>
                     </div>
                     <div className='quizzical'>
-                        <a href='http://quizzical-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Quizzical App</a>
+                        <a href='http://quizzical-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Pop-Culture Trivia App Where You Get A Score For Doing a Quiz.</a>
                     </div>
                     <div className='todo'>
-                        <a href='http://todo-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Todo App</a>
+                        <a href='http://todo-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Really Really Simple To-Do List App That Gets The Job Done.</a>
                     </div>
                 </div>
             </div>
