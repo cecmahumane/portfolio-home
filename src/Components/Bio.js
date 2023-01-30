@@ -1,4 +1,5 @@
 import React from 'react'
+import YoutubeEmbed from "./YoutubeEmbed";
 
 const Bio = () => {
     return (
@@ -6,7 +7,7 @@ const Bio = () => {
             <h2 className='bio-title'>The <span className='subtitle'>Origins</span> of Old Man Cecil</h2>
             <div className='video-box-container'>
                 <div className='video-box'>
-
+                    <YoutubeEmbed embedId="dVCHcU--9aI" className='video'/>
                 </div>
             </div>
             <div className='columns'>

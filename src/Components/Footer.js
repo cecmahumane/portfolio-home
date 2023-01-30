@@ -12,7 +12,10 @@ const Footer = () => {
                     <img src='/images/GithubLogo.png' alt='Github logo' />
                 </a>
                 <a target="_blank" rel="noopener noreferrer" >
-                    <img src='/images/PhoneNumber.png' alt='Phone symbol' />
+                    <img src='/images/PhoneNumber.png' alt='Phone symbol' onClick={() => {
+                        navigator.clipboard.writeText("1-613-795-8763")
+                        alert('Phone number added to clipboard');
+                    }}/>
                 </a>
 
                 <img src='/images/Envelope.png' alt='Envelope' onClick={() => window.location = 'mailto:cecmahumane@gmail.com'} />

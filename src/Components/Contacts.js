@@ -49,8 +49,8 @@ const Contacts = () => {
                         type='email'
                         placeholder='Primary Email'
                         onChange={handleChange}
-                        name='lastName'
-                        value={formData.lastName}
+                        name='email'
+                        value={formData.email}
                     />
                     <select
                         id='rating'

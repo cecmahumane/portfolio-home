@@ -1,9 +1,11 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap); */
+
 body {
   margin: 0px;
   display: flex; /* Test removing this line and ...*/
   flex-direction: column; /* ...this line */
-  
-}
+  font-family: Inter;
+} 
 
 h2 {
   font-size: 50px;
@@ -173,8 +175,15 @@ span {
 
 .video-box {
   border: #F04505 solid 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1027px;
   height: 623px;
+}
+
+.video {
+
 }
 
 .columns {
