@@ -186,10 +186,6 @@ ul li {
   height: 623px;
 }
 
-.video {
-
-}
-
 .columns {
   margin-top: 98px;
   width: 100%;
@@ -245,6 +241,7 @@ ul li {
 }
 
 .image-box {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -252,8 +249,28 @@ ul li {
   /* gap: 60px; */
 }
 
-.image-box div {
- /* text-align: center; */
+.image-box .dot {
+  z-index: -1;
+  height: 10%;
+  position: absolute;
+  left: 970px;
+  top: 490px;
+}
+
+.image-box .dot-two {
+  z-index: -1;
+  height: 10%;
+  position: absolute;
+  left: 270px;
+  top: 1195px;
+}
+
+.image-box .dot-three {
+  z-index: -2;
+  height: 10%;
+  position: absolute;
+  left: 1455px;
+  top: 670px;
 }
 
 .reddit, .quizzical, .todo, .ecommerce {
@@ -262,7 +279,7 @@ ul li {
   background-size: cover;
   width: 600px;
   height: 600px;
-  margin: 0px 50px 50px;
+  margin: 0px 50px 100px;
 } 
 
 .reddit {
@@ -270,7 +287,8 @@ ul li {
 }
 
 .quizzical {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png');
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png'), url();
 }
 
 .todo {
@@ -279,7 +297,7 @@ ul li {
 
 .ecommerce {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('');
-  
+   
 }
 
 .projects div {

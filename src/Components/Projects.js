@@ -12,12 +12,15 @@ const Projects = () => {
                     <div className='todo'>
                         <a href='http://todo-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Really Really Simple To-Do List App That Gets The Job Done.</a>
                     </div>
+                    <img src='/images/DotSquare.png' className='dot'/>
                     <div className='quizzical'>
                         <a href='http://quizzical-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Pop-Culture Trivia App Where You Get A Score For Doing a Quiz.</a>
                     </div>
+                    <img src='/images/DotSquare.png' className='dot-two'/>
                     <div className='reddit'>
-                        <a href='http://reddit-client.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Clone Of The Reddit App, With No Search.</a>
+                        <a href='http://reddit-client.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Clone Of The Reddit App, <br/>With No Search.</a>
                     </div>
+                    <img src='/images/DotSquare.png' className='dot-three'/>
                     <div className='ecommerce'>
                         <a target="_blank" rel="noopener noreferrer">An E-Commerce Store Where You Can Make Orders.<br />Coming Soon</a>
                     </div>
