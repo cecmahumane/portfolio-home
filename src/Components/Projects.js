@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='project-tiles'>
                 <div className='image-box'>
                     <div className='todo'>
-                        <a href='http://todo-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Really Really Simple To-Do List App That Gets The Job Done.</a>
+                        <a href='http://todo-app.cecilmahumane.com' target="_blank" rel="noopener noreferrer">Really Simple To-Do List App That Gets The Job Done.</a>
                     </div>
                     <img src='/images/DotSquare.png' className='dot'/>
                     <div className='quizzical'>

@@ -16,7 +16,7 @@ function App() {
         <HeroSection />
         <Bio />
         <Projects id='projects' />
-        <Contacts />
+        {/* <Contacts /> */}
         <Footer />
       </div>
     </BrowserRouter>

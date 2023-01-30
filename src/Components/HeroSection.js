@@ -8,7 +8,7 @@ const HeroSection = () => {
         <img src='/images/headshot.jpg'  alt='Smiling male'/>
       </div>
       <div className='hero-text-button'>
-        <h2 className='line1'>I'm Cecil </h2>
+        <h2 className='line1'>I'm <span>Cecil</span> </h2>
         <h2 className='line2'>Mahumane</h2>
         <p className='hero-quote'> I'm a self-taught Full Stack Web Developer, <br/> 
           from Ottawa in his 30s. Feel free to learn  <br/> 
