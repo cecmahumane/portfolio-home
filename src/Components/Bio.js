@@ -3,7 +3,7 @@ import YoutubeEmbed from "./YoutubeEmbed";
 
 const Bio = () => {
     return (
-        <div className='bio'>
+        <div className='bio' id='bio'>
             <h2 className='bio-title'>The <span className='subtitle'>Origins</span> of Old Man Cecil</h2>
             <div className='video-box-container'>
                 <div className='video-box'>

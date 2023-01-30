@@ -5,7 +5,7 @@ const Projects = () => {
 
 
     return (
-        <div className='projects'>
+        <div className='projects' id='projects'> 
             <h2 className='projects-title'>How I <span className='title-highlight'>Progressed</span>As A Developer</h2>
             <div className='project-tiles'>
                 <div className='image-box'>
