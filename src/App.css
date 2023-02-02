@@ -297,7 +297,7 @@ ul li {
 }
 
 .ecommerce {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/ecommerce-screenshot.png');
    
 }
 

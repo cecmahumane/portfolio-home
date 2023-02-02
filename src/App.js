@@ -27,17 +27,17 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        {width > breakpoint ? <div className="std">
+        {/* width > breakpoint ?*/}<div className="std">
           <Header />
           <HeroSection />
           <Bio />
           <Projects id='projects' />
           {/* <Contacts /> */}
           <Footer />
-        </div> :
+        </div> {/*:
           <div className='mobile'>
             Nothing
-          </div>}
+          </div>*/}
       </div>
     </BrowserRouter>
   );
