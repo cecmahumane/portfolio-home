@@ -20,8 +20,8 @@ function App() {
     }, []);
     return { width };
   }
-  
-  const {width} = useViewport();
+
+  const { width } = useViewport();
   const breakpoint = 1350;
 
   return (
