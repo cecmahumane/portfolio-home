@@ -13,7 +13,7 @@ const Header = () => {
                     <Link to='#projects' smooth><li>Portfolio</li></Link>
                     {/* <Link to='#contacts' smooth><li>Contact</li></Link> */}
                 </ul>
-                <a href='/CecilDeveloperResume-Feb022023.pdf' target="_blank" rel="noopener noreferrer"><div className='menu-options-cv'>
+                <a href='/CecilDeveloperResume-Feb0223.pdf' target="_blank" rel="noopener noreferrer"><div className='menu-options-cv'>
                     <p>Download CV</p>
                 </div></a>
             </div>
