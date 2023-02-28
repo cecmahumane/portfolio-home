@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='project-tiles'>
                 <div className='image-box'>
                     <div className='ecommerce'>
-                        <a target="_blank" rel="noopener noreferrer">An E-Commerce Store Where You Can Make Orders.<br />(Coming Soon)</a>
+                        <a href='http://ecommerce.cecilmahumane.com' target="_blank" rel="noopener noreferrer">An E-Commerce Store Where You Can Make Orders.</a>
                     </div>
                     <img src='/images/DotSquare.png' alt='Dots in a square shape' className='dot' />
                     <img src='/images/DotSquare.png' alt='Dots in a square shape' className='dot-two' />
