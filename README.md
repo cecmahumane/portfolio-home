@@ -45,7 +45,7 @@ npm run start
 This portfolio page is all about getting to know who I am and having a little bit of fun at the same time. Please feel free to use any of the linked applications in the portfolio section.
 
 ## 🚀 Deployment <a name = "deployment"></a>
-Ready to have a look at my page in action, check it out right [here](https://home.cecilmahumane.com/). 
+Ready to have a look at my page in action, check it out right here at [https://home.cecilmahumane.com](https://home.cecilmahumane.com/). 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [ReactJs](https://reactjs.org//) - Web Framework
