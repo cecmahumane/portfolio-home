@@ -8,6 +8,11 @@ import Projects from './Components/Projects';
 import Contacts from './Components/Contacts';
 import Footer from './Components/Footer';
 import { BrowserRouter } from 'react-router-dom';
+import MobileHeader from './MobileComponents/MobileHeader';
+import MobileHeroSection from './MobileComponents/MobileHeroSection';
+import MobileBio from './MobileComponents/MobileBio';
+import MobileProjects from './MobileComponents/MobileProjects';
+import MobileFooter from './MobileComponents/MobileFooter';
 
 function App() {
   const useViewport = () => {
@@ -36,7 +41,11 @@ function App() {
           <Footer />
         </div> :
           <div className='mobile'>
-            Nothing
+            <MobileHeader/>
+            <MobileHeroSection/>
+            <MobileBio/>
+            <MobileProjects/>
+            <MobileFooter/>
           </div>}
       </div>
     </BrowserRouter>

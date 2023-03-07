@@ -1,13 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+const MobileFooter = () => {
     return (
-        <div className='footer-box'>
-            <div className='name-rights'>
-                <p className='name'>Cecil Mahumane</p>
-                <p className='rights'>All Rights Reserved 2023</p>
-            </div>
-            <div className='socials'>
+        <div className='mobile-footer-box'>
+            <div className='mobile-socials'>
                 <a href='https://www.github.com/cecmahumane' target="_blank" rel="noopener noreferrer">
                     <img src='/images/GithubLogo.png' alt='Github logo' />
                 </a>
@@ -24,8 +20,12 @@ const Footer = () => {
                     <img src='/images/LinkedinLogo.png' alt='Linkedin logo' />
                 </a>
             </div>
+            <div className='mobile-credit-box'>
+                    <p className='mobile-name'>Cecil Mahumane. </p>
+                    <p className='mobile-rights'>All Rights Reserved 2023</p>
+            </div>
         </div>
     )
 }
 
-export default Footer;
+export default MobileFooter;
