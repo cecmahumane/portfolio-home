@@ -289,7 +289,7 @@ ul li {
 
 .quizzical {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png'), url();
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png');
 }
 
 .todo {
@@ -374,6 +374,20 @@ textarea {
 .mobile-menu {
   margin-right: 6px;
 }
+
+/* Side Menu */
+.slide-menu {
+  position: fixed;
+  color: white;
+  background: #F04505;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  z-index: 50;
+  box-shadow: 10px 0px 5px grey;
+}
+
 
 /* Mobile Hero */
 
@@ -530,7 +544,7 @@ textarea {
 
 .mobile-quizzical {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png'), url();
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png');
 }
 
 .mobile-todo {
