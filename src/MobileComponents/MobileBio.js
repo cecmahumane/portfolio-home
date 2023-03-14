@@ -1,7 +1,7 @@
 import React from 'react'
 import MobileYoutubeEmbed from './MobileYoutubeEmbed'
 
-const MobileBio = () => {
+const MobileBio = ({showMenu}) => {
     return (
         <div className='mobile-bio' id='mobile-bio'>
             <h2 className='mobile-bio-title'>The <span className='subtitle'>Origins</span> of Old Man Cecil</h2>
