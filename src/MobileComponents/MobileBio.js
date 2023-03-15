@@ -4,7 +4,7 @@ import MobileYoutubeEmbed from './MobileYoutubeEmbed'
 const MobileBio = ({showMenu}) => {
     return (
         <div className='mobile-bio' id='mobile-bio'>
-            <h2 className='mobile-bio-title'>The <span className='subtitle'>Origins</span> of Old Man Cecil</h2>
+            <h2 className='mobile-bio-title'>The <span className='subtitle'>Origins</span> of <br/>Old Man Cecil</h2>
             <div className='mobile-video-box-container'>
                 <div className='mobile-video-box'>
                     <MobileYoutubeEmbed embedId="dVCHcU--9aI" className='video' />
