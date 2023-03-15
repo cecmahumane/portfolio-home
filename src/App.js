@@ -1,13 +1,18 @@
 // import logo from './logo.svg';
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './Components/Header';
 import HeroSection from './Components/HeroSection';
 import Bio from './Components/Bio';
 import Projects from './Components/Projects';
-import Contacts from './Components/Contacts';
+// import Contacts from './Components/Contacts';
 import Footer from './Components/Footer';
 import { BrowserRouter } from 'react-router-dom';
+import MobileHeader from './MobileComponents/MobileHeader';
+import MobileHeroSection from './MobileComponents/MobileHeroSection';
+import MobileBio from './MobileComponents/MobileBio';
+import MobileProjects from './MobileComponents/MobileProjects';
+import MobileFooter from './MobileComponents/MobileFooter';
 
 function App() {
   const useViewport = () => {
@@ -26,18 +31,22 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div>
-        {/* width > breakpoint ?*/}<div className="std">
+      <div className='page'>
+        {width > breakpoint ? <div className="std">
           <Header />
           <HeroSection />
           <Bio />
           <Projects id='projects' />
           {/* <Contacts /> */}
           <Footer />
-        </div> {/*:
+        </div> :
           <div className='mobile'>
-            Nothing
-          </div>*/}
+            <MobileHeader/>
+            <MobileHeroSection/>
+            <MobileBio/>
+            <MobileProjects/>
+            <MobileFooter/>
+          </div>}
       </div>
     </BrowserRouter>
   );

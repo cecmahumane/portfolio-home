@@ -7,6 +7,10 @@ body {
   font-family: Inter;
 } 
 
+.page {
+  width: 100%;
+}
+
 h2 {
   font-size: 50px;
 }
@@ -355,4 +359,310 @@ textarea {
   border-radius: 5px;
   display: block;
   
+}
+/* Mobile Styles Below */
+
+/* Mobile Header */
+.mobile-header {
+  background-color: #44474A;
+  height: 83px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 6;
+} 
+
+.mobile-logo {
+  margin-left: 21px;
+}
+
+.mobile-menu {
+  margin-right: 6px;
+}
+
+/* Side Menu */
+.slide-menu {
+  position: fixed;
+  color: white;
+  background-color: #44474A;
+  top: 83px;
+  right: 0;
+  width: 252px;
+  height: 350px;
+  z-index: 10;
+}
+
+.slide-menu-mask {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(0, 0, 255, 0);
+  top: 83px;
+  left: 0;
+  width: 100%;
+  height:100%
+}
+
+/* Side Menu Content */
+.nav-list {
+  list-style: none;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding-left: 17px;
+}
+
+.list {
+  display: flex;
+  color: #FFFFFF;
+  text-decoration: underline;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+li img {
+  margin-right: 17px;
+}
+
+.cv-download {
+  font-weight: bold;
+  color: #F04505;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 42px;
+}
+
+/* Mobile Hero */
+
+.mobile-photo-hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 38px;
+  margin-bottom: 55.82px;
+}
+
+.mobile-photo-hero-text h2 {
+  font-size: 50px;
+}
+
+.mobile-photo {
+  border: #F04505 solid 9px; 
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  height: 311px;
+  width: 311px;
+  margin-top: 47px;
+}
+
+.mobile-photo img {
+  height: 311px;
+  width: 340px;
+}
+
+.mobile-photo:before {
+  content: " ";
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 9px solid white;
+  border-radius: 50%;
+}
+
+.mobile-hero-text-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.mobile-hero-quote {
+  font-size: 20px;
+}
+
+.mobile-line1, .mobile-line2 {
+  font-size: 90px;
+  margin: 0px;
+}
+
+.mobile-line1 {
+  margin-top: 21px;
+}
+
+.mobile-portfolio-button {
+align-items: center;
+}
+
+.mobile-portfolio-button p {
+  /* margin: 0 auto; */
+  background-color: #F04505;
+  color: #FFFFFF;
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 25px;
+  margin: 0px 0px;
+  text-align: center;
+  max-width: 314px;
+}
+
+/* Mobile Bio */
+
+.mobile-bio {
+  background-color: #f0ecec;
+  padding-top: 31px;
+  padding-bottom: 90px;
+}
+
+.mobile-bio-title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.mobile-video-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-video-box {
+  border: #F04505 solid 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 330px;
+  height: 200px;
+}
+ 
+.mobile-alignment-box {
+  padding: 0px 38px;
+}
+
+ .mobile-p1, .mobile-p2{
+  font-size: 20px;
+}
+
+.mobile-p1 {
+  margin-bottom: 0px;
+}
+
+/* Mobile Projects */
+
+.mobile-projects {
+  padding-bottom: 32px;
+}
+
+.mobile-project-tiles {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-projects-title {
+  /* display: flex; */
+  font-size: 40px;
+  text-align: center;
+  gap: 10px;
+  margin: 50px;
+}
+
+.title-highlight {
+  color: #F04505;
+  font-style: italic;
+}
+
+.mobile-image-box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* gap: 60px; */
+}
+
+.mobile-reddit, .mobile-quizzical, .mobile-todo, .mobile-ecommerce {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url('../public/images/reddit-clone-screenshot.png'); */
+  background-position: center;
+  background-size: cover;
+  width: 348px;
+  height: 460px;
+  margin-bottom: 28px;
+} 
+
+.mobile-reddit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/reddit-clone-screenshot.png');
+}
+
+.mobile-quizzical {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/quizzical-screenshot.png');
+}
+
+.mobile-todo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/todo-screenshot.png');
+}
+
+.mobile-ecommerce {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../public/images/ecommerce-screenshot.png');
+   
+}
+
+.mobile-projects div {
+  text-align: center;
+}
+
+.mobile-projects div a {
+  color: white;
+  font-size: 30px;
+  /* text-align: center; */
+  position: relative;
+  bottom: -300px; 
+  left: 0%;
+  text-decoration: none;
+}
+
+.mobile-projects div a:hover {
+  color: #F04505;
+}
+
+/* Mobile Footer */
+
+.mobile-footer-box {
+  padding: 20px 71px;
+  /* display: flex; */
+  justify-content: center;
+  background-color: #060A0EBF;
+  margin-top: auto;
+  align-items: center;
+}
+
+.mobile-socials {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.mobile-name, .mobile-rights {
+  margin: 0px;
+}
+
+.mobile-name {
+  font-size: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.mobile-rights {
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+.mobile-credit-box {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
  
-const YoutubeEmbed = ({ embedId }) => (
+const MobileYoutubeEmbed = ({ embedId }) => (
   <div className="video-responsive">
     <iframe
-      width="1027"
-      height="623"
+      width="330"
+      height="200"
       src={`https://www.youtube.com/embed/${embedId}`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -16,8 +16,8 @@ const YoutubeEmbed = ({ embedId }) => (
   </div>
 );
  
-YoutubeEmbed.propTypes = {
+MobileYoutubeEmbed.propTypes = {
   embedId: PropTypes.string.isRequired
 };
  
-export default YoutubeEmbed;
+export default MobileYoutubeEmbed;
