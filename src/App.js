@@ -31,7 +31,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div>
+      <div className='page'>
         {width > breakpoint ? <div className="std">
           <Header />
           <HeroSection />

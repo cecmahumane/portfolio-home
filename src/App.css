@@ -7,6 +7,10 @@ body {
   font-family: Inter;
 } 
 
+.page {
+  width: 100%;
+}
+
 h2 {
   font-size: 50px;
 }
@@ -383,7 +387,7 @@ textarea {
   background-color: #44474A;
   top: 83px;
   right: 0;
-  width: 65%;
+  width: 252px;
   height: 350px;
   z-index: 10;
 }
@@ -467,6 +471,14 @@ li img {
   border-radius: 50%;
 }
 
+.mobile-hero-text-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .mobile-hero-quote {
   font-size: 20px;
 }
@@ -480,8 +492,12 @@ li img {
   margin-top: 21px;
 }
 
+.mobile-portfolio-button {
+align-items: center;
+}
+
 .mobile-portfolio-button p {
-  /* margin-left: auto; */
+  /* margin: 0 auto; */
   background-color: #F04505;
   color: #FFFFFF;
   padding: 15px 15px;
@@ -517,8 +533,8 @@ li img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 390px;
-  height: 237px;
+  width: 330px;
+  height: 200px;
 }
  
 .mobile-alignment-box {
