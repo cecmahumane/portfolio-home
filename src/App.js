@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './Components/Header';
 import HeroSection from './Components/HeroSection';
 import Bio from './Components/Bio';
 import Projects from './Components/Projects';
-import Contacts from './Components/Contacts';
+// import Contacts from './Components/Contacts';
 import Footer from './Components/Footer';
 import { BrowserRouter } from 'react-router-dom';
 import MobileHeader from './MobileComponents/MobileHeader';
